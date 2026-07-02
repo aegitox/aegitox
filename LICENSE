@@ -1,7 +1,22 @@
-Copyright (c) 2025 Aegitox. All rights reserved.
+Copyright (c) 2025-2026 Aegitox. All rights reserved.
 
-The documentation, architectural specifications, and placeholder content
-in this repository are provided for informational and transparency purposes.
-The Aegitox software, AI models, and processing pipeline are proprietary
-and closed-source. No license to use, copy, or distribute the software
-is granted by this repository.
+PROPRIETARY AND CONFIDENTIAL
+
+1. TRANSPARENCY GRANT
+The documentation, architectural specifications, and placeholder content 
+in this repository are provided strictly for informational, transparency, 
+and auditing purposes. You are permitted to view and read these materials 
+on the GitHub platform.
+
+2. RESTRICTIONS
+The Aegitox software, C#/.NET core engine, AI models, and processing 
+pipeline are proprietary and closed-source. 
+
+Under no circumstances is any entity permitted to:
+- Use, copy, modify, or distribute the software or its architectural logic.
+- Reverse-engineer the deterministic routing, webhook interceptors, or memory management protocols.
+- Repurpose the placeholder arrays or API schemas for derivative works.
+
+No implicit or explicit license to execute, fork for commercial use, or 
+distribute the software is granted by its presence in this repository. 
+All rights not expressly granted herein are reserved by Aegitox.
