@@ -5,7 +5,7 @@ Legacy moderation bots rely on message deletion. This creates structural vacuums
 
 When our dual MiniLM-L6-v2 pipeline flags a message, it calculates the precise semantic target of the malice and selects a context-appropriate placeholder from three distinct tactical categories:
 
-* 🔴 **Personnel (`personnel.json`):** Toxicity directed at other users. These stubs diffuse direct attacks and interpersonal hostility before they fracture group cohesion.
+* 🔴 **Personal (`personal.json`):** Toxicity directed at other users. These stubs diffuse direct attacks and interpersonal hostility before they fracture group cohesion.
 * 🟡 **Self (`self.json`):** Self-harm language, depression, or intense self-deprecation. These stubs offer grounding, performance-resetting encouragement to prevent burnout.
 * 🟢 **System (`system.json`):** Frustration aimed at the game servers, netcode, hitboxes, or mechanics. These stubs redirect environmental tilt to maintain a constructive community vibe.
 
