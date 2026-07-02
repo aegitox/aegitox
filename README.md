@@ -10,21 +10,6 @@
 
 <br>
 
-## The Aegitox Advantage
-
-* **⚡ O(1) Execution:** Algorithmic supremacy guarantees **2–12ms response times**. Toxicity is intercepted before the payload renders on the client side.
-* **🧠 Dual MiniLM-L6-v2:** A two-stage edge inference pipeline. Gate 1 detects toxicity. Gate 2 calculates the exact directional threat vector.
-* **🛡️ 120 Placeholders:** No generative AI hallucinations. Threats are mapped to **static, pre-vetted de-escalation stubs** to instantly neutralize drama.
-
-## Why Legacy Moderation Fails
-
-* **❌ The Drama:** Legacy bots delete messages after the entire chat reads them. The damage is done. Your moderators manage the fallout, not the cause.
-* **❌ False Positives:** Keyword filters can't identify friendly trash talk. Real members get warnings. Actual offenders bypass filters. Trust is lost.
-* **❌ The Burnout:** Manual moderation burns out your volunteer staff. Moderator burnout is your most expensive hidden cost. Protect your team.
-* **❌ The Liability:** Standard bots log your community's chat history to unsecured databases indefinitely, and spam user DMs with penalties. Your server becomes a data farm.
-
-<br>
-
 ## Technical Architecture & Core AI Interceptor
 
 ```mermaid
@@ -44,6 +29,19 @@ graph LR
 ```
 
 <br>
+
+## The Aegitox Advantage
+
+* **⚡ O(1) Execution:** Algorithmic supremacy guarantees **2–12ms response times**. Toxicity is intercepted before the payload renders on the client side.
+* **🧠 Dual MiniLM-L6-v2:** A two-stage edge inference pipeline. Gate 1 detects toxicity. Gate 2 calculates the exact directional threat vector.
+* **🛡️ 120 Placeholders:** No generative AI hallucinations. Threats are mapped to **static, pre-vetted de-escalation stubs** to instantly neutralize drama.
+
+## Why Legacy Moderation Fails
+
+* **❌ The Drama:** Legacy bots delete messages after the entire chat reads them. The damage is done. Your moderators manage the fallout, not the cause.
+* **❌ False Positives:** Keyword filters can't identify friendly trash talk. Real members get warnings. Actual offenders bypass filters. Trust is lost.
+* **❌ The Burnout:** Manual moderation burns out your volunteer staff. Moderator burnout is your most expensive hidden cost. Protect your team.
+* **❌ The Liability:** Standard bots log your community's chat history to unsecured databases indefinitely, and spam user DMs with penalties. Your server becomes a data farm.
 
 ## Technical Architecture & Core AI Interceptor
 
