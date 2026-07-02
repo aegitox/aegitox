@@ -15,4 +15,4 @@ Each category utilizes a lock-free, highly optimized `System.Random.Shared` PRNG
 This deliberate randomization ensures that a recurring toxic user rarely sees the same automated response twice. It entirely eliminates the rigid "bot feel" of standard moderation tools and autonomously diffuses hostility without requiring manual staff intervention.
 
 ## Architectural Transparency
-The JSON arrays in this directory serve as our public placeholder configurations. *Note: During live execution, the Aegitox engine dynamically appends the watermark `\n\n> ### ✨ Upgraded by Aegitox AI` to all payloads at boot time to guarantee absolute transparency when a message has been altered.*
+The JSON arrays in this directory serve as our public placeholder configurations. *Note: During live execution, the Aegitox engine dynamically appends the watermark `✨ Upgraded by Aegitox AI` to all payloads at boot time to guarantee absolute transparency when a message has been altered.*
