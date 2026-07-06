@@ -56,7 +56,21 @@ Our team established the **64-Character Head-Tail Compression Heuristic**. When 
 
 #### Visual Anchor: Dual-Gate Semantic Matrix
 
-[INSERT MERMAID DIAGRAM HERE: Dual MiniLM-L6-v2 Toxicity Gate & Target Classifier Architecture]
+```mermaid
+graph LR
+    A[Incoming message] --> B[MiniLM-L6-v2 №1<br>Toxicity gate]
+    
+    B -- Not toxic --> C[✅ Passes through]
+    B -- Toxic --> D[MiniLM-L6-v2 №2<br>Target classifier]
+    
+    D -- Personnel --> E[Pool A — 40 placeholders]
+    D -- Self --> F[Pool B — 40 placeholders]
+    D -- System --> G[Pool C — 40 placeholders]
+    
+    E --> H[🔄 Message replaced<br>2–12ms total]
+    F --> H
+    G --> H
+```
 
 * **Gate 1 (Toxicity Triage):** Evaluates raw semantic intent, generating a normalized confidence vector ($0.0$ to $1.0$). Payloads scoring below $0.15$ bypass moderation immediately. Payloads exceeding the absolute $0.92$ confidence threshold are flagged for instantaneous interception.
 * **Gate 2 (Intent & Target Mapping):** Toxic payloads immediately route to the secondary edge classifier, which maps the hostility to a strict 0-indexed matrix: *Personal* (`Index 0`), *Self* (`Index 1`), or *System* (`Index 2`).
