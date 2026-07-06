@@ -10,8 +10,6 @@
 
 <br>
 
-<br>
-
 ## 🏛️ Architectural Documentation & Resources
 
 Before deploying, review our comprehensive systems engineering guide detailing the mathematics and algorithms behind zero-latency Discord defense:
