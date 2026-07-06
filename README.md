@@ -10,6 +10,16 @@
 
 <br>
 
+<br>
+
+## 🏛️ Architectural Documentation & Resources
+
+Before deploying, review our comprehensive systems engineering guide detailing the mathematics and algorithms behind zero-latency Discord defense:
+
+* **[Read the 2026 Intent Moderation Playbook (INTENT_MODERATION_PLAYBOOK.md)](https://github.com/aegitox/aegitox/blob/main/INTENT_MODERATION_PLAYBOOK.md)** — *Explores $O(1)$ stack-allocated ingress sanitization, the 64-character Head-Tail compression heuristic, and target-aware de-escalation game theory.*
+
+<br>
+
 ## Technical Architecture & Core AI Interceptor
 
 ```mermaid
@@ -27,16 +37,6 @@ graph LR
     F --> H
     G --> H
 ```
-
-<br>
-
-<br>
-
-## 🏛️ Architectural Documentation & Resources
-
-Before deploying, review our comprehensive systems engineering guide detailing the mathematics and algorithms behind zero-latency Discord defense:
-
-* **[Read the 2026 Intent Moderation Playbook (INTENT_MODERATION_PLAYBOOK.md)](https://github.com/aegitox/aegitox/blob/main/INTENT_MODERATION_PLAYBOOK.md)** — *Explores $O(1)$ stack-allocated ingress sanitization, the 64-character Head-Tail compression heuristic, and target-aware de-escalation game theory.*
 
 <br>
 
